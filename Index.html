@@ -5,16 +5,28 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 		<script>
-			$(function(){
-			$(".btnTwo").click(function(){
-
-			 //$("#paragraphOne").text("im new");
-
-			$("#btnOne").click(function(){
-				$("#paragraphOne").text("im new");
-			}
-
-				});
+			$(function()
+              {
+                
+			 $("#btnOne").click(function()
+            {
+			     $("#paragraphOne").text("im 1");
+            });
+                
+             	 $("#btnTwo").click(function()
+            {
+			     $("#paragraphOne").text("im 2");
+            });
+                
+                $("#btnThree").click(function()
+            {
+			     $("#paragraphOne").text("im 3");
+            });
+                
+                
+                
+                
+                
 			});
 
 		</script>
@@ -45,7 +57,7 @@
 				<ul id = "menuLiTwo">
 					<li class = "menuLiTwo"> <button type="button"  id = "btnOne" class = "btnTwo"> <p>About Me</p> </button> </li>
 					<li class = "menuLiTwo"> <button type="button"  id = "btnTwo" class = "btnTwo"> <p>My Work</p> </button> </li>
-					<li class = "menuLiTwo"> <button type="button"  id = "butnhree" class = "btnTwo"> <p>Other</p> </button> </li>
+					<li class = "menuLiTwo"> <button type="button"  id = "btnThree" class = "btnTwo"> <p>Other</p> </button> </li>
 				</ul>
 
 					</div>
