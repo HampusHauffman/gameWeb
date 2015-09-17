@@ -4,31 +4,47 @@
 	text-align: center;
 	line-height: 400%;
 	margin-top: 50px;
+    font-family: Arial Black;
+
+  
 }
 
-#menu ul{
-	    background-color: #007F7F;
-    	padding: 0;
-    	height: 40px;
+.menuOne ul{
+    margin-left: 0;
+    padding-left: 0;
 }
 
-.menu ul li{
+.menuOne ul li{
+    text-align: center;
+    line-height: 400%;
+    background-color: #007F7F;
+    float: left;
+    display: block;
+    width: 33%;
+    font-family: Arial Black;
+}
+
+.btnOne{
+    width:70%;
+    border:none;
+    background-color: #00403F;
+    font-family: Arial Black;
+}
+
+
+.menuTwo ul li{
 	text-align: center;
 	line-height: 400%;
     background-color: #007F7F;
     float: left;
     display: block;
     width: 33.333333333%;
+    font-family: Arial Black;
 }
 
-
-#wrap{
-
-
-}
 
 #firstWords{
-    width: 40%;
+    width: 50%;
     height: auto;
     background-color: #007F7F;
     clear: both;
@@ -42,6 +58,7 @@
     width:70%;
     border:none;
     background-color: #00403F;
+    font-family: Arial Black;
 }
 
 #paragraphOne{
@@ -53,7 +70,8 @@
     width: 40%;
     background-color: #007F7F;
     margin-top: 100px;
-    float: right;
+    margin-left: 60%;
+    position: fixed;
 
 }
 

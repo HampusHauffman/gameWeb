@@ -8,17 +8,17 @@
 			$(function()
               {
                 
-			 $("#btnOne").click(function()
+			 $("#btnTwoOne").click(function()
             {
 			     $("#paragraphOne").text("im 1");
             });
                 
-             	 $("#btnTwo").click(function()
+             	 $("#btnTwoTwo").click(function()
             {
 			     $("#paragraphOne").text("im 2");
             });
                 
-                $("#btnThree").click(function()
+                $("#btnTwoThree").click(function()
             {
 			     $("#paragraphOne").text("im 3");
             });
@@ -40,50 +40,48 @@
 			<p > <h1>Hampus Website</h1></p>
 		</div>
 
-		<div id = "menu" class = "menu">
-			<ul>
-				<li>Home</li>
-				<li>Contact Me</li>
-				<li>Pictures</li>
+		<div id = "menu" class = "menuOne">
+			<ul id = "menuLiOne">
+					<li> <button type="button"  class = "btnOne"> <p>About Me</p> </button> </li>
+					<li> <button type="button"  class = "btnOne"> <p>My Work</p> </button> </li>
+					<li> <button type="button"  class = "btnOne"> <p>Other</p> </button> </li>
 			</ul>
+		</div>
+
+		<div id = "wrap">
+
+			<div id = "firstWords">
+
+				<div class = "menuTwo">
+					<ul id = "menuLiTwo">
+						<li> <button type="button" id = "btnTwoOne"  class = "btnTwo"> <p>About Me</p> </button> </li>
+						<li> <button type="button" id = "btnTwoTwo"  class = "btnTwo"> <p>My Work</p> </button> </li>
+						<li> <button type="button" id = "btnTwoThree"  class = "btnTwo"> <p>Other</p> </button> </li>
+					</ul>
+
+				</div>
+
+				<p id = "paragraphOne">
+					Lorem ipsum dolor sit amet, pri id ludus interpretaris, vim ad aeque essent vulputate. An elitr delenit interesset sit, patrioque vituperatoribus no quo. Vim viderer adipisci ei, sale posse quaestio sit ne. Eu usu ferri affert minimum, evertitur delicatissimi ad vim, autem erant explicari sed ut. Alterum suscipit instructior vis ne, iudico efficiendi eos ea. Per ex adhuc nostro vituperata, numquam dissentiet id mea, ex vel libris doming atomorum.
+
+					Ad prompta antiopam mea. Solum tamquam aliquid no nec, sit clita appellantur at. Vix ad habeo delicata consetetur, in habeo menandri nec. Vis cu sonet iisque, nibh saperet accumsan id vix, ex vis dico clita. Minim soleat aperiam quo eu, epicurei deterruisset pri ad.
+						
+
+				</p>
+
+			</div>
 
 		</div>
 
-			<div id = "wrap">
 
-				<div id = "firstWords">
-
-					<div class = "menu">
-				<ul id = "menuLiTwo">
-					<li class = "menuLiTwo"> <button type="button"  id = "btnOne" class = "btnTwo"> <p>About Me</p> </button> </li>
-					<li class = "menuLiTwo"> <button type="button"  id = "btnTwo" class = "btnTwo"> <p>My Work</p> </button> </li>
-					<li class = "menuLiTwo"> <button type="button"  id = "btnThree" class = "btnTwo"> <p>Other</p> </button> </li>
-				</ul>
-
-					</div>
-
-					<p id = "paragraphOne">
-						Lorem ipsum dolor sit amet, pri id ludus interpretaris, vim ad aeque essent vulputate. An elitr delenit interesset sit, patrioque vituperatoribus no quo. Vim viderer adipisci ei, sale posse quaestio sit ne. Eu usu ferri affert minimum, evertitur delicatissimi ad vim, autem erant explicari sed ut. Alterum suscipit instructior vis ne, iudico efficiendi eos ea. Per ex adhuc nostro vituperata, numquam dissentiet id mea, ex vel libris doming atomorum.
-
-						Ad prompta antiopam mea. Solum tamquam aliquid no nec, sit clita appellantur at. Vix ad habeo delicata consetetur, in habeo menandri nec. Vis cu sonet iisque, nibh saperet accumsan id vix, ex vis dico clita. Minim soleat aperiam quo eu, epicurei deterruisset pri ad.
-							
-
-					</p>
-
-				</div>
+			<div id = "pictures">
 
 
-				<div id = "pictures">
+				<p id = "paragraphTwo">
+					<img src="IMG/fanny2.png"/>
+						
 
-
-					<p id = "paragraphTwo">
-						<img src="IMG/fanny2.png"/>
-							
-
-					</p>
-
-
-				</div>
+				</p>
 
 
 			</div>
