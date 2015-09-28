@@ -16,30 +16,37 @@
 
 .menuOne ul li{
     text-align: center;
-    line-height: 400%;
     background-color: #007F7F;
     float: left;
     display: block;
     width: 33%;
     font-family: Arial Black;
+
 }
 
 .btnOne{
     width:70%;
     border:none;
-    background-color: #00403F;
+    background-color: #0C4D4B;
     font-family: Arial Black;
+    margin-top: 9px;
+
+
+}
+
+#btnOneOne{
+        background-color: #0C4D4B;
 }
 
 
 .menuTwo ul li{
 	text-align: center;
-	line-height: 400%;
     background-color: #007F7F;
     float: left;
     display: block;
     width: 33.333333333%;
     font-family: Arial Black;
+    margin: 0;
 }
 
 
@@ -51,14 +58,16 @@
     margin-top: 100px;
     float: left;
 
-
 }
 
 .btnTwo{
     width:70%;
     border:none;
-    background-color: #00403F;
-    font-family: Arial Black;
+    background-color: #0C4D4B;
+    font-family: Arial black;
+    margin-bottom: 0px;
+        margin: 0;
+
 }
 
 #paragraphOne{
@@ -84,6 +93,8 @@ img{
 
 
 
+
+
 body{
 	padding: 0;
 	margin: 0;
@@ -91,6 +102,7 @@ body{
 }
 
 html{
-	background-color: #00BFBF;
+	background-color: #0C4D4B;
+
 
 }
