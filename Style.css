@@ -19,7 +19,7 @@
     background-color: #007F7F;
     float: left;
     display: block;
-    width: 33%;
+    width: 33.333%;
     font-family: Arial Black;
 
 }
@@ -29,7 +29,8 @@
     border:none;
     background-color: #0C4D4B;
     font-family: Arial Black;
-    margin-top: 9px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 
 
 }
@@ -60,12 +61,17 @@
 
 }
 
+#menuLiTwo{
+    margin: 0px;
+    padding: 0px;
+}
+
 .btnTwo{
     width:70%;
     border:none;
-    background-color: #0C4D4B;
+    background-color: #007F7F;
     font-family: Arial black;
-    margin-bottom: 0px;
+    margin-top: 0px;
         margin: 0;
 
 }
@@ -78,7 +84,7 @@
 #pictures{
     width: 40%;
     background-color: #007F7F;
-    margin-top: 100px;
+    margin-top: 155px;
     margin-left: 60%;
     position: fixed;
 
